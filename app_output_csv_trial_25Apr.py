@@ -29,7 +29,7 @@ st.markdown(
 # Load API key from .env file
 #load_dotenv()
 #user_api_key = os.getenv("OPENAI_API_KEY")
-user_api_key = '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'
+user_api_key = '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'
 openai.api_key = user_api_key
 
 # Allow the user to upload a CSV file
