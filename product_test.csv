@@ -1,0 +1,11 @@
+product_id_sku,product_name,category,brand,weight,price,product_location_in_shelf,date,sales
+B12365,Kelloggs Cereal for Breakfast - High in fibre,Cereal,Kelloggs,400g,340,Top,23-03-2023,1020
+B27348,Knorr Soup - Thick tomato soup,Soup,Knorr,20g,25,Middle,23-03-2023,100
+B10394,Lays - Indian Magic Masala Hangout pack,Chips,Lays,50g,40,Eye,23-03-2023,160
+B93638,Kinley Soda,Soda,Kinley,300ml,30,Middle,23-03-2023,30
+B45273,Colgate Active fresh toothpaste,Toothpaste,Colgate,200g,57,Bottom,23-03-2023,57
+B12365,Kelloggs Cereal for Breakfast - High in fibre,Cereal,Kelloggs,400g,340,Bottom,30-03-2023,680
+B27348,Knorr Soup - Thick tomato soup,Soup,Knorr,20g,25,Eye,30-03-2023,200
+B10394,Lays - Indian Magic Masala Hangout pack,Chips,Lays,50g,40,Bottom,30-03-2023,240
+B93638,Kinley Soda,Soda,Kinley,300ml,30,Top,30-03-2023,30
+B45273,Colgate Active fresh toothpaste,Toothpaste,Colgate,200g,57,Middle,30-03-2023,114
