@@ -6,7 +6,7 @@ import pandas as pd
 import asyncio
 from io import StringIO
 import csv
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Import modules needed for building the chatbot application
 from streamlit_chat import message
@@ -27,9 +27,9 @@ st.markdown(
     unsafe_allow_html=True)
 
 # Load API key from .env file
-load_dotenv()
-user_api_key = os.getenv("OPENAI_API_KEY")
-#user_api_key = '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'
+#load_dotenv()
+#user_api_key = os.getenv("OPENAI_API_KEY")
+user_api_key = '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'
 openai.api_key = user_api_key
 
 # Allow the user to upload a CSV file
