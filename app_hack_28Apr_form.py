@@ -13,7 +13,7 @@ from streamlit_chat import message
 import openai
 
 from PIL import Image
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from pathlib import Path
 
 # datetime object containing current date and time
@@ -21,11 +21,11 @@ now = datetime.now()
 execution_time = now.strftime("%Y%m%d_%H%M")
 
 
-dotenv_path = Path('.env')
+#dotenv_path = Path('.env')
 
-load_dotenv(dotenv_path=dotenv_path)
+#load_dotenv(dotenv_path=dotenv_path)
 
-user_api_key = os.getenv("OPENAI_API_KEY")
+user_api_key = st.secrets["OPENAI_API_KEY"]
 openai.api_key = user_api_key
 
 
